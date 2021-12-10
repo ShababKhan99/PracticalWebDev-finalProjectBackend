@@ -20,6 +20,10 @@ const Student = db.define("student", {
     allowNull: false,
   },
 
+  imageUrl: {
+    type: Sequelize.BLOB
+  },
+  
   email: {
     type: Sequelize.STRING,
     allowNull: false,
