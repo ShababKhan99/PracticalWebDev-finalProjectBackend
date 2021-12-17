@@ -18,7 +18,7 @@ const Campus = db.define("campus", {
   },
 
   description: {
-    type: Sequelize.LONGTEXT
+    type: Sequelize.TEXT
   },
 
   createdAt: {
