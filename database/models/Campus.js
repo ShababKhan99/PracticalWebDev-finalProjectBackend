@@ -10,7 +10,7 @@ const Campus = db.define("campus", {
 
   imageUrl: {
     type: Sequelize.STRING,
-    defaultValue: "https://s29068.pcdn.co/wp-content/uploads/hunter-student-life.jpg"
+    defaultValue: "https://s29068.pcdn.co/wp-content/uploads/hunter-campus.jpg"
   },
 
   address: {
