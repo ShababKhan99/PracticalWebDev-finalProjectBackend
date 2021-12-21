@@ -21,7 +21,8 @@ const Student = db.define("student", {
   },
 
   imageUrl: {
-    type: Sequelize.BLOB
+    type: Sequelize.STRING,
+    defaultValue: "https://s29068.pcdn.co/wp-content/uploads/hunter-student-life.jpg"
   },
   
   email: {
